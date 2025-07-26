@@ -2,7 +2,7 @@
 
 Welcome to my personal developer portfolio built with **React + Vite**, showcasing my skills, projects, timeline, and a contact form powered by **Formspree**.
 
-🌐 **Live Site:** [https://your-portfolio-link.netlify.app](https://wenlong-portfolio.netlify.app)
+🌐 **Live Site:** [View My Live Website HERE!!](https://wenlong-portfolio.netlify.app)
 
 ---
 
