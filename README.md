@@ -2,7 +2,7 @@
 
 Welcome to my personal developer portfolio built with **React + Vite**, showcasing my skills, projects, timeline, and a contact form powered by **Formspree**.
 
-🌐 **Live Site:** [View My Live Website HERE!!](https://wenlong-portfolio.netlify.app)
+🌐 **Live Site:** [CLICK HERE!!](https://wenlong-portfolio.netlify.app)
 
 ---
 
@@ -45,6 +45,18 @@ src/
 
 ## 🚀 Deployment
 Deployed via Netlify. Just push to your main branch and Netlify takes care of the rest.
+
+## 🧑‍💻 Git Setup & Deployment to GitHub
+
+### First time push (initialize repo and push to GitHub)
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/your-username/your-repo.git
+git push -u origin main
 
 🧾 License
 This project is open-source and free to use for personal or educational purposes. Attribution appreciated!
