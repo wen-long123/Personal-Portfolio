@@ -48,12 +48,18 @@ export const ExperienceSection = () => {
                       )}
                     </div>
 
-                    <div className="z-10 w-12 h-12 rounded-full border-2 border-primary bg-white dark:bg-background shadow-md flex items-center justify-center mx-6">
-                      {item.type === "education" ? (
-                        <GraduationCap className="w-5 h-5 text-primary" />
-                      ) : (
-                        <Briefcase className="w-5 h-5 text-primary" />
-                      )}
+                    {/* Icon with background cover circle */}
+                    <div className="relative z-10 flex items-center justify-center mx-6">
+                      {/* Background circle to cover vertical line */}
+                      <div className="absolute inset-0 bg-background rounded-full" />
+                      {/* Icon circle */}
+                      <div className="relative w-12 h-12 rounded-full border-2 border-primary bg-gray-350 dark:bg-background shadow-md flex items-center justify-center">
+                        {item.type === "education" ? (
+                          <GraduationCap className="w-5 h-5 text-primary" />
+                        ) : (
+                          <Briefcase className="w-5 h-5 text-primary" />
+                        )}
+                      </div>
                     </div>
 
                     <div className="w-full lg:w-1/2 lg:pl-8 flex justify-start text-left">
@@ -102,9 +108,12 @@ export const ExperienceSection = () => {
                 </a>
               </div>
 
-              {/* Center Icon */}
-              <div className="z-10 w-12 h-12 rounded-full border-2 border-primary bg-white dark:bg-background shadow-md flex items-center justify-center mx-6">
-                <FileText className="w-6 h-6 text-primary" />
+              {/* Center Icon with background cover */}
+              <div className="relative z-10 flex items-center justify-center mx-6">
+                <div className="absolute inset-0 bg-background rounded-full" />
+                <div className="relative w-12 h-12 rounded-full border-2 border-primary bg-gray-350 dark:bg-background shadow-md flex items-center justify-center">
+                  <FileText className="w-6 h-6 text-primary" />
+                </div>
               </div>
 
               <div className="w-full lg:w-1/2 lg:pl-8 flex justify-start">
@@ -180,7 +189,7 @@ const Card = ({ item }) => {
       className={cn(
         "w-full max-w-full border rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer",
         isExpanded ? "p-6" : "p-3",
-        "bg-white dark:bg-white/5 border-gray-300 dark:border-white/10 backdrop-blur-md flex flex-col gap-2 lg:flex-row lg:items-center overflow-hidden"
+        "bg-gray-350 dark:bg-white/5 border-gray-300 dark:border-white/10 backdrop-blur-md flex flex-col gap-2 lg:flex-row lg:items-center overflow-hidden"
       )}
     >
       <div className="flex items-start gap-4 flex-wrap lg:flex-nowrap w-full">
