@@ -1,21 +1,21 @@
-import htmlcss from "@/assets/tech/Langauges/htmlcss.png";
-import javascript from "@/assets/tech/Langauges/javascript.png";
-import python from "@/assets/tech/Langauges/python.png";
-import cpp from "@/assets/tech/Langauges/C++.png";
-import java from "@/assets/tech/Langauges/Java.png";
-import sql from "@/assets/tech/Langauges/sql.png";
+import htmlcss from "@/assets/tech/Languages/htmlcss.png";
+import javascript from "@/assets/tech/Languages/javascript.png";
+import python from "@/assets/tech/Languages/python.png";
+import cpp from "@/assets/tech/Languages/Cplusplus.png";
+import java from "@/assets/tech/Languages/Java.png";
+import sql from "@/assets/tech/Languages/sql.png";
 
 import reactjs from "@/assets/tech/Frameworks/reactjs.png";
 import tailwind from "@/assets/tech/Frameworks/tailwind.png";
 import nodejs from "@/assets/tech/Frameworks/nodejs.png";
-import aspnet from "@/assets/tech/Frameworks/asp.net.png";
+import aspnet from "@/assets/tech/Frameworks/aspnet.png";
 
 import eclipse from "@/assets/tech/Tools/eclipse.png";
 import vscode from "@/assets/tech/Tools/vscode.png";
 import codeblocks from "@/assets/tech/Tools/codeblocks.png";
 import github from "@/assets/tech/Tools/github.png";
 import uipath from "@/assets/tech/Tools/uipath.png";
-import colab from "@/assets/tech/Tools/google colab.png";
+import colab from "@/assets/tech/Tools/google-colab.png";
 
 export const skills = [
   { name: "HTML/CSS", level: 85, category: "languages", icon: htmlcss },
