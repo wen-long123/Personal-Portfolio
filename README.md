@@ -61,6 +61,7 @@ git push -u origin main
 ```
 
 ### Subsequent updates (add, commit, and push)
+Edit in VScode and do the following:
 ```bash
 git add .
 git commit -m "Your commit message"
