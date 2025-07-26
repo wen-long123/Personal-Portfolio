@@ -33,6 +33,7 @@ Welcome to my personal developer portfolio built with **React + Vite**, showcasi
 
 ## 📁 Folder Structure
 
+```plaintext
 src/
 ├── assets/         # Images, logos, icons
 ├── components/     # Reusable components and sections (Hero, Projects, etc.)
@@ -41,7 +42,7 @@ src/
 ├── hooks/          # Custom hooks (e.g., toast logic)
 ├── App.jsx
 └── main.jsx
-
+```
 
 ## 🚀 Deployment
 Deployed via Netlify. Just push to your main branch and Netlify takes care of the rest.
@@ -55,7 +56,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/your-username/your-repo.git
+git remote add origin https://github.com/wen-long123/Personal-Portfolio.git
 git push -u origin main
 ```
 
