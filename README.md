@@ -1,12 +1,50 @@
-# React + Vite
+# 🧑‍💻 Seah Wen Long – Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio built with **React + Vite**, showcasing my skills, projects, timeline, and a contact form powered by **Formspree**.
 
-Currently, two official plugins are available:
+🌐 **Live Site:** [https://your-portfolio-link.netlify.app](https://wenlong-portfolio.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Fully responsive, mobile-first design
+- 🌗 Light/Dark mode toggle
+- 🎨 Modern UI with Tailwind CSS
+- 🧩 Animated project cards with Framer Motion
+- 🕒 Timeline for work experience and education
+- 🧠 Skills section with categorized 3D icons
+- 📬 Contact form with Formspree integration
+- 🔗 Social links (LinkedIn, GitHub, Instagram, WhatsApp)
+
+---
+
+## 🛠 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide React Icons](https://lucide.dev/)
+- [Formspree](https://formspree.io/)
+- [Netlify](https://www.netlify.com/) – for deployment
+
+---
+
+## 📁 Folder Structure
+
+src/
+├── assets/         # Images, logos, icons
+├── components/     # Reusable components and sections (Hero, Projects, etc.)
+│   └── canvas/     # 3D visuals (e.g., BallCanvas, Loader)
+├── constants/      # Static data (skills, projects, timeline)
+├── hooks/          # Custom hooks (e.g., toast logic)
+├── App.jsx
+└── main.jsx
+
+
+## 🚀 Deployment
+Deployed via Netlify. Just push to your main branch and Netlify takes care of the rest.
+
+🧾 License
+This project is open-source and free to use for personal or educational purposes. Attribution appreciated!
