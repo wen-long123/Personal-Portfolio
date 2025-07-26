@@ -57,6 +57,14 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/your-username/your-repo.git
 git push -u origin main
+```
+
+### Subsequent updates (add, commit, and push)
+```bash
+git add .
+git commit -m "Your commit message"
+git push
+```
 
 🧾 License
 This project is open-source and free to use for personal or educational purposes. Attribution appreciated!
