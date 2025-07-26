@@ -1,9 +1,9 @@
-import htmlcss from "@/assets/tech/languages/htmlcss.png";
-import javascript from "@/assets/tech/languages/javascript.png";
-import python from "@/assets/tech/languages/python.png";
-import cpp from "@/assets/tech/languages/Cplusplus.png";
-import java from "@/assets/tech/languages/Java.png";
-import sql from "@/assets/tech/languages/sql.png";
+import htmlcss from "@/assets/tech/Languages/htmlcss.png";
+import javascript from "@/assets/tech/Languages/javascript.png";
+import python from "@/assets/tech/Languages/python.png";
+import cpp from "@/assets/tech/Languages/Cplusplus.png";
+import java from "@/assets/tech/Languages/Java.png";
+import sql from "@/assets/tech/Languages/sql.png";
 
 import reactjs from "@/assets/tech/Frameworks/reactjs.png";
 import tailwind from "@/assets/tech/Frameworks/tailwind.png";
